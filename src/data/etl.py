@@ -1,18 +1,13 @@
+import numpy as no
 
-
-def get_data(year, location, group, outpath=None):
+def get_data(x_dir, y_dir):
     '''
     Retrieve data for year/location/group from the internet
     and return data (or write data to file, if `outpath` is
     not `None`).
     '''
     
-    data = ...
-
-    if outpath is None:
-        return data
-    else:
-        ... # write data to outpath
-
-        return data
-
+    x = np.load(x_dir)
+    y = np.load(y_dir)
+    
+    return x, y
