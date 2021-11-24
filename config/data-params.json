@@ -1,4 +1,4 @@
 {
-    "x_dir": "DSC180_Q1_A15/test/testdata/x_sample.npy",
-    "y_dir": "DSC180_Q1_A15/test/testdata/y_sample.npy",
+    "x_dir": "../test/testdata/x_sample.npy",
+    "y_dir": "../test/testdata/y_sample.npy",
 }

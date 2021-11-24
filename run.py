@@ -28,7 +28,7 @@ def main(targets):
 
         # make the data target
         x,y = get_data(**data_cfg)
-
+#         print (x)
 #     if 'analysis' in targets:
 #         with open('config/analysis-params.json') as fh:
 #             analysis_cfg = json.load(fh)
